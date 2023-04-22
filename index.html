@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Landing Page</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="jeff.jpg">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div>
+        <h2>Start<u>up</u></h2>
+      </div>
+      <div class="list-container">
+        <ul class="list">
+          <li class="li"><a href="">Home</a></li>
+          <li class="li"><a href="">About Us</a></li>
+          <li class="li"><a href="">Contact Us</a></li>
+          <li class="li"><a href="">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- container -->
+
+    <div class="container">
+      <div class="flex intro-section">
+        <div class="intro">
+          <h1>Startup Landing Page</h1>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+          <button class="btn">Login</button>
+        </div>
+
+        <!-- image -->
+        <div>
+          <img class="img" src="jeff.jpg" alt="Jeff Bezos" />
+        </div>
+      </div>
+
+      <!-- Contact us Form -->
+
+      <div>
+        <h1 class="contact">Contact Us</h1>
+      </div>
+
+      <form>
+        <input
+          class="contact-input"
+          type="text"
+          name="name"
+          placeholder="Name"
+          required
+        />
+        <br />
+
+        <input
+          class="contact-input"
+          type="email"
+          name="email"
+          placeholder="E-mail"
+          required
+        />
+        <br />
+
+        <div class="contact-input-wrapper">
+          <input
+            class="contact-input-half"
+            type="tel"
+            name="number"
+            pattern="\d{5}([- ]*)\d{6}"
+            placeholder="Mobile Number"
+            required
+          />
+
+          <input
+            class="contact-input-half"
+            type="text"
+            name="city"
+            placeholder="city"
+            required
+          />
+        </div>
+        <br />
+        <div class="btn-container">
+          <button class="btn-submit">Submit Form</button>
+        </div>
+      </form>
+
+      <!-- table -->
+
+      <div>
+        <table class="center">
+          <thead>
+            <tr class="table-heading">
+              <td style="width: 10%; text-align: center">S No.</td>
+              <td>Startup Name</td>
+              <td>Startup Description</td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li>1.</li>
+                  <li>2.</li>
+                  <li>3.</li>
+                  <li>4.</li>
+                  <li>5.</li>
+                  <li>6.</li>
+                </ul>
+              </td>
+              <td>
+                <ul class="align-left">
+                  <li>WowIndia</li>
+                  <li>Loreum Ipsum</li>
+                  <li>Loreum Ipsum</li>
+                  <li>Loreum Ipsum</li>
+                  <li>Loreum Ipsum</li>
+                  <li>Loreum Ipsum</li>
+                </ul>
+              </td>
+              <td>
+                <ul class="align-left">
+                  <li>A startup with Wow Ideas</li>
+                  <li>Loreum Ipsum Text</li>
+                  <li>Loreum Ipsum Text</li>
+                  <li>Loreum Ipsum Text</li>
+                  <li>Loreum Ipsum Text</li>
+                  <li>Loreum Ipsum Text</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td class="footer-design">00.</td>
+              <td class="footer-design">
+                <ul class="align-left">
+                  <li>Final Footer</li>
+                </ul>
+              </td>
+              <td class="footer-design-2">
+                <ul class="align-left">
+                  <li>Loreum Ipsum Text</li>
+                </ul>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
