@@ -191,7 +191,7 @@ input:focus{
 
 }
 
-.btn-2:hover{
+.btn-submit:hover{
     cursor: pointer;
     background-color: #FF7B54;
 }
